@@ -18,7 +18,7 @@ def atoi(str):
 
     return num * sign
 
-def __main__():
+def main():
     if len(sys.argv) < 2:
         return
     
@@ -26,4 +26,5 @@ def __main__():
     print(type(atoi(sys.argv[1])))
 
 
-__main__()
+if __name__ == "__main__":
+    main()
